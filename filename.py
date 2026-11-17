@@ -5,9 +5,10 @@ name = " Sam "
 chocolate = 12
 gummies = 8
 lollipops = 5
+sugar = 6
 given_away = 4
 
-total = chocolate + gummies + lollipops
+total = chocolate + gummies + lollipops + sugar
 left = total - given_away
 
 print ( " Candy report for " , name )
